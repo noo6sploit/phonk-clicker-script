@@ -1,9 +1,5 @@
-while true do wait(1)
-local Event = game:GetService("ReplicatedStorage").Remotes.ClickBrainrot
-Event:FireServer(
-    111111111
-) end -- auto money
-then
-while true do wait(1)
-local Event = game:GetService("ReplicatedStorage").Remotes.Rebirth
-Event:InvokeServer() end -- auto rebirth 
+while true do
+	task.wait(1)
+	game:GetService("ReplicatedStorage").Remotes.ClickBrainrot:FireServer(111111111)
+	game:GetService("ReplicatedStorage").Remotes.Rebirth:InvokeServer()
+end
