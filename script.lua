@@ -9,7 +9,7 @@ local ClickBrainrot = Remotes and Remotes:FindFirstChild("ClickBrainrot")
 
 while true do
 	task.wait(1)
-	ClickBrainrot:FireServer(111111111)
+	ClickBrainrot:FireServer(9007199254740992)
 end 
 end
 -- noo6 was here
