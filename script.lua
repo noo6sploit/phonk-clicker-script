@@ -12,3 +12,4 @@ while true do
 	ClickBrainrot:FireServer(111111111)
 end 
 end
+-- noo6 was here
